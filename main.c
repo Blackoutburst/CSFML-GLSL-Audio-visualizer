@@ -94,7 +94,7 @@ void update(sfRenderWindow *window, sfEvent event)
     sfSound *song;
     sfSoundBuffer *soundBuffer;
     song = sfSound_create();
-    soundBuffer = sfSoundBuffer_createFromFile("song.wav");
+    soundBuffer = sfSoundBuffer_createFromFile("song.ogg");
     sfSound_setBuffer(song, soundBuffer);
     sfSound_play(song);
     int sc = sfSoundBuffer_getSampleCount(soundBuffer);
