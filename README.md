@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/github/license/Blackoutburst/CSFML-GLSL-Audio-visualizer.svg)](LICENSE)
+
 # CSFML GLSL Audio visualizer
 Simple audio visualizer made with CSFML using GLSL shader.
 
